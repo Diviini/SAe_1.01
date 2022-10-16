@@ -6,8 +6,6 @@ Vous pouvez l'emplacement du dossier dans Metier_exo4.java dans la méthode gene
 Veuillez aussi à changer l'emplacement dans :
 <br/>
 
-GeneratioPageAccueil.generer()
-
-GeneratioPageAuteur.generer()
-
+GeneratioPageAccueil.generer()<br/>;
+GeneratioPageAuteur.generer()<br/>;
 GeneratioPageEditeur.generer()
