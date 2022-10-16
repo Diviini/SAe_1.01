@@ -198,9 +198,9 @@ public class Metier_exo4
 	{                                                                                // ------------
 		try
 		{
-			if ( !Files.exists ( Paths.get("../" + repDest) ) )
+			if ( !Files.exists ( Paths.get("./" + repDest) ) )
 			{
-				Files.createDirectory ( Paths.get("../" + repDest) );
+				Files.createDirectory ( Paths.get("./" + repDest) );
 			}
 		}catch(Exception e){ e.printStackTrace(); }
 

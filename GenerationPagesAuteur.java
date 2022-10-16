@@ -11,7 +11,7 @@ public class GenerationPagesAuteur
 
 		for ( int cpt = 0; cpt < alAuteur.size(); cpt ++ )
 		{
-			try{	pw = new PrintWriter ( new File ( "../" + repertoire + "/auteur" + cpt + ".html"), "utf-8" ); }
+			try{	pw = new PrintWriter ( new File ( "./" + repertoire + "/auteur" + cpt + ".html"), "utf-8" ); }
 			catch (Exception e){e.printStackTrace();}
 			
 			// Debut HTML //

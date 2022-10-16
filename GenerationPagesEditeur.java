@@ -12,7 +12,7 @@ public class GenerationPagesEditeur
 
 		for ( int cpt = 0; cpt < alEditeur.size(); cpt ++ )
 		{
-			try{	pw = new PrintWriter ( new File ( "../" + repertoire + "/editeur" + cpt + ".html"), "utf-8" ); }
+			try{	pw = new PrintWriter ( new File ( "./" + repertoire + "/editeur" + cpt + ".html"), "utf-8" ); }
 			catch (Exception e){e.printStackTrace();}
 
 

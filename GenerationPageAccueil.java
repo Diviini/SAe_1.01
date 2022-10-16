@@ -10,7 +10,7 @@ public class GenerationPageAccueil
 	{
   		PrintWriter pw = null;
 
-  		try{	pw = new PrintWriter ( new File ( "../" + repertoire + "/index.html" ), "utf-8" ); }
+  		try{	pw = new PrintWriter ( new File ( "./" + repertoire + "/index.html" ), "utf-8" ); }
   		catch (Exception e){e.printStackTrace();}
 
 		pw.println ( "<html>" );
