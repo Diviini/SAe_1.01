@@ -1,0 +1,131 @@
+
+tbody{
+	border: 1px solid dark;
+}
+
+div{
+	display: flex;
+	text-align: center;
+	align-items: flex-start;
+}
+
+td{
+	background-color: lightblue;
+	text-align: center;
+	border : 1px solid black;
+	width: 60%;
+}
+
+html{
+	background-color: rgb(224,255,255) ;
+}
+
+h1{
+	text-align: center;
+}
+
+#divTabAuteur, #divTabEditeur{
+	width: 70%;
+	margin: 0 auto;	
+	align-items: flex-start;
+}
+
+
+.tabAuteur, #tabEditeur{
+	width: 100%;
+	height:100px;
+	justify-content: center;
+	align-items: flex-start;
+	border-collapse: collapse;
+}
+.tabAuteur, #tabEditeur > img{
+	object-fit: cover; 
+}
+
+#tabAuteurAccueil{
+	margin-right: auto;
+	width: 20%;
+}
+
+#tabEditeurAccueil{
+	margin-left: 20%;
+	width: 20%
+}
+
+#divTabAccueil{
+	align-items: flex-start;
+	text-align: center;
+	margin-left:10%;
+}
+
+table{
+	border: 1px, solid, black;
+	align-items: flex-start;
+}
+
+div{
+	border: 1px, solid, red;
+}
+
+
+#tabEditeurAccueil, #tabAuteurAccueil{
+	width:25%;
+}
+
+header{
+	background-color: lightblue;
+	margin-top: 0;
+}
+
+header h1{
+	text-align: center;
+	font-size: 35px;
+}
+
+
+a{
+	text-decoration: none;
+	color: black;
+	display: block;
+}
+
+.liens:hover{
+	background-color: rgb(224,255,255);
+	
+}
+/*
+table{
+	border: 1px, solid, black;
+}
+*/
+#tabEditeur{
+	border-collapse: collapse;
+}
+
+
+#logoEditeur {
+
+    position : absolute;
+    right: 0.005em;
+    top:0.005em;
+    max-width: 150px;
+    height: auto;
+	transform: scale(0.7);
+
+}
+
+footer {
+	position:absolute;
+	width:100%;
+	background:lightblue;
+	text-align: center;
+}
+
+body{
+	position:relative;
+	padding-bottom: 40px;
+}
+
+td > img{
+	object-fit: cover;
+}
