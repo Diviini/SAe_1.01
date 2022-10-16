@@ -4,7 +4,7 @@ Pour générer la ludothèque, il faut lancer le main du Controleur_exo4.java.
 Le dossier contenant la ludothèque apparaîtra à ./ludotheque. 
 Vous pouvez l'emplacement du dossier dans Metier_exo4.java dans la méthode genererPages(). 
 Veuillez aussi à changer l'emplacement dans :
-
+<br/>
 
 GeneratioPageAccueil.generer()
 
