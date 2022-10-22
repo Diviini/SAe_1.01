@@ -5,6 +5,6 @@ Le dossier contenant la ludothèque apparaîtra à ./ludotheque. <br/>
 Vous pouvez l'emplacement du dossier dans Metier_exo4.java dans la méthode genererPages().<br/> 
 Veuillez aussi à changer l'emplacement dans :<br/>
 
-GeneratioPageAccueil.generer()<br/>
-GeneratioPageAuteur.generer()<br/>
-GeneratioPageEditeur.generer()
+GenerationPageAccueil.generer()<br/>
+GenerationPageAuteur.generer()<br/>
+GenerationPageEditeur.generer()
